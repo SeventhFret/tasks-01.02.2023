@@ -54,7 +54,7 @@ while choice != 'x':
         plain_text = input('Insert your string: ')
         palidrome_check(plain_text)
     elif choice == '5':
-        sequence = input('Insert your sequence here: ')
+        sequence = input('Insert your sequence which each word separated with hyphen: ')
         unsorted_items = []
         for item in sequence.split('-'):
             unsorted_items.append(item)
